@@ -1,13 +1,47 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import Navigation from './components/Navtest';
+import Intro from './components/Intro';
+import Awards from './components/Awards';
 import reportWebVitals from './reportWebVitals';
+import styled from 'styled-components';
+import GlobalStyle from './globalStyle';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+
+
+import Fade from 'react-reveal/Fade';
+
+
+
+const Container = styled.div`
+
+      align-content:center;
+
+  `;
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
-    <App />
+    <GlobalStyle />
+    <a id="home" />
+
+      <Container>
+        <Navigation/>
+        <Intro className="comp" />
+        <Fade Up><Awards className="comp" /></Fade>
+        <Fade Up>
+          <Skills className="comp" />
+        </Fade>
+
+        <Fade Up><Projects /></Fade>
+
+      
+      </Container>
   </React.StrictMode>
 );
 
