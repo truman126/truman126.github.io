@@ -44,7 +44,7 @@ function Intro(props) {
       </Leftainer>
 
       <div>
-        <Image src={"./dog.jpg"} alt="Truman" />
+        <Image src={"./truman.png"} alt="Truman" />
       </div>
     </Wrapper>
   );
