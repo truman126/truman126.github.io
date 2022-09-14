@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Fade from 'react-reveal/Fade';
+
+
 import Navigation from './components/Navtest';
 import Intro from './components/Intro';
 import Awards from './components/Awards';
@@ -9,8 +12,6 @@ import GlobalStyle from './globalStyle';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 
-
-import Fade from 'react-reveal/Fade';
 
 
 

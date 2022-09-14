@@ -43,6 +43,12 @@ function Awards(props) {
           url=""
         />
         <Award
+          name="BSc. Major in Computer Science"
+          date="2022"
+          image="./images/awards/uwocrest.gif"
+          url=""
+        />
+        <Award
           name="Codecademy: Learn React"
           date="TBD"
           image="./images/awards/codecademy.png"

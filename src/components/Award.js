@@ -1,39 +1,52 @@
 import styled from "styled-components";
+import {
+  MDBCard,
+  MDBCardBody,
+  MDBCardTitle,
+  MDBCardText,
+  MDBCardImage,
+  MDBBtn
+} from 'mdb-react-ui-kit';
 
 const Wrapper = styled.section`
   display:inline-block;
-  margin: 0 50px 0 50px;
+  margin: 20px 50px 20px 50px;
+  width:250px;
+  overflow:hidden;
+
 
 `;
 const Image = styled.img`
 
-  height:200px;
-  width:200px;
-  border-radius: 7%;
+  height: 250px;
+  width: 250px;
+
+  
   object-fit: cover;
-  border: 5px solid skyblue;
+  border-radius: inherit;
+
 `;
 
 function Award(props) {
   
-  //temp, until a better way to do this
   
   let displayProperty = props.url == "" ? "none" : "default";
+return (
 
-  return (
-    <Wrapper>
-      <Image src={props.image}></Image>
-      <br/>
-      {props.name}
-      <br />
-      <date>{props.date} </date>
-      <br />
-      <a style={{display: displayProperty}} href={props.url} target="_blank">
-        Link
-      </a>
-      <br />
-    </Wrapper>
-  );
+  <Wrapper>
+    <MDBCard style={{height: '500px'}}>
+      <Image src={props.image} alt={props.name}/>
+      <MDBCardBody>
+        <MDBCardTitle>{props.name}</MDBCardTitle>
+        <MDBCardText>
+        {props.date}
+          {props.desc}
+        </MDBCardText>
+        <MDBBtn style={{display: displayProperty}} href={props.url} target="_blank">Link</MDBBtn>
+      </MDBCardBody>
+    </MDBCard>
+  </Wrapper>
+);
 }
 
 
