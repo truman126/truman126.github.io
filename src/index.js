@@ -11,6 +11,7 @@ import styled from 'styled-components';
 import GlobalStyle from './globalStyle';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

@@ -1,29 +1,25 @@
 import styled from "styled-components";
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
-  MDBBtn
-} from 'mdb-react-ui-kit';
-
-const Wrapper = styled.div`
-    min-width:250px;
+import Card from 'react-bootstrap/Card';
 
 
 
+const Icon = styled.img`
+  width:40px;
+  display:inline-block;
+
+`;
+const SCard = styled(Card)`
+  width: 12rem;
+  display:inline-block;
+  background-color: #d2dae2;
 `;
 
 function SkillCard(props) {
   return (
-        <Wrapper>
-            <MDBCard>
-              <MDBCardBody>
-                <MDBCardTitle>{props.name}</MDBCardTitle>
-                <MDBCardText>{props.desc}</MDBCardText>
-              </MDBCardBody>
-            </MDBCard>
-        </Wrapper>
+      
+      <SCard body>
+        <Icon src={props.icon}/>{props.name}
+        </SCard>
   );
 }
 

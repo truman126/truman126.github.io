@@ -21,7 +21,7 @@ function Awards(props) {
         <a id="awards" />
 
       <AwardsContainer>
-      <Header as="h4">Awards and Certifications</Header>
+      <Header>Awards and Certifications</Header>
 
         <Award
           className="Award"
