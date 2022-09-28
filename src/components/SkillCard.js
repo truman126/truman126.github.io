@@ -18,7 +18,7 @@ function SkillCard(props) {
   return (
       
       <SCard body>
-        <Icon src={props.icon}/>{props.name}
+        <Icon src={props.icon}/>&#9;{props.name}
         </SCard>
   );
 }

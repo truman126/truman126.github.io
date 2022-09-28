@@ -37,7 +37,7 @@ function Intro(props) {
             <AnimatedTitle />
           </span>
         </Header>
-        <p >
+        <p style={{marginTop:'25px'}} >
           florem ipsum, I am a developer that enjoys web development along with
           other backend endeavours fill the rest with how awesome i am
         </p>

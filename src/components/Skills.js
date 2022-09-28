@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard";
 import styled, { keyframes } from 'styled-components';
 import Stack from "react-bootstrap/Stack";
 import Button from "react-bootstrap/Button";
-import { flipInX, rotateInDownLeft } from 'react-animations';
+import { flipInX } from 'react-animations';
 
 function Skills(props) {
   const MAX_ITEMS = 4;
@@ -40,6 +40,38 @@ function Skills(props) {
       name="Mac OS"
       icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
     />,
+    <SkillCard
+      name="HTML/CSS"
+      icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    />,
+    <SkillCard
+      name="PHP"
+      icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+    />,
+    <SkillCard
+      name="Linux"
+      icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+    />,
+    <SkillCard
+    name="ReactJS"
+    icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  />,
+  <SkillCard
+      name="JQuery"
+      icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"
+    />,
+    <SkillCard
+      name="MySQL"
+      icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    />,
+    <SkillCard
+      name="Git"
+      icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    />,
+    <SkillCard
+      name="Excel VBA"
+      icon="https://img.icons8.com/color/48/000000/ms-excel.png"
+    />
   ];
 
   const toggle = () => {
@@ -63,11 +95,11 @@ function Skills(props) {
   `;
   const Wrapper = styled.div``;
 
-  const Container = styled.div`
-    height:100%;
-  `;
   const SkillStack = styled(Stack)`
     flex-wrap:wrap;
+    justify-content:center;
+    padding-top:80px;
+
 
     
   `;
@@ -82,15 +114,15 @@ function Skills(props) {
       <a id="skills" />
       <Header>Languages and Technologies</Header>
 
-      <Container>
+      
         <SkillStack direction="horizontal" gap={3}>
           {getRenderedItems().map((item, id) => (
-            <SkillItem style={id<MAX_ITEMS ? {animation: 'none'} : {}} key={id}>{item}{id}</SkillItem>
+            <SkillItem style={id<MAX_ITEMS ? {animation: 'none'} : {}} key={id}>{item}</SkillItem>
           ))}
 
           <Button style={{display: buttonVisibility}} variant="outline-dark" onClick={toggle}>More</Button>
         </SkillStack>
-      </Container>
+      
     </Wrapper>
   );
 }

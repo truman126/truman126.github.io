@@ -40,7 +40,7 @@ root.render(
           <Skills className="comp" />
         </Fade>
 
-        <Fade Up><Projects /></Fade>
+        <Fade Up><Projects className="comp" /></Fade>
 
       
       </Container>
