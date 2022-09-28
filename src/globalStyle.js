@@ -18,12 +18,13 @@ const GlobalStyle = createGlobalStyle`
     flex-direction:column;
     
     @media (max-width: 1023px) {
-      display:default;
+      display:None;
     }
 
   }
   .comp {
-    min-height: 100vh;
+    margin-bottom:150px;
+    min-height: 60vh;
     max-width:1200px;
     align-items: center;
     justify-content: center;

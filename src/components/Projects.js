@@ -27,7 +27,7 @@ function Projects(props) {
         <ProjectCard
           title="QuizMaker"
           desc="This application can be used by educators to create Quizzes of various types and save them for later use. Students cannot cheat as quiz files can be loaded by the program but the files cannot be view. This application was built in C++ with the Qt framework."
-          img=""
+          img="./images/projects/quizmaker.png"
           github="https://github.com/truman126/QuizMaker"
           demo=""
           use=""
@@ -41,12 +41,12 @@ function Projects(props) {
           use="https://chrome.google.com/webstore/detail/trumans-weather-extension/jlgbkogpcpdgnjlbbokmoaekfknpgnkf/"
         />
         <ProjectCard
-          title="Truman's Weather Extension"
-          desc=""
-          img=""
-          github="https://github.com/truman126/weather-extension"
+          title="Coviz"
+          desc="This is a Covid-19 visualizing tool created in Java."
+          img="./images/projects/coviz.png"
+          github="https://github.com/truman126/COVIZ"
           demo=""
-          use="https://chrome.google.com/webstore/detail/trumans-weather-extension/jlgbkogpcpdgnjlbbokmoaekfknpgnkf/"
+          use=""
         />
       </Container>
     </Wrapper>

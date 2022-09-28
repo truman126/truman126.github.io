@@ -50,7 +50,7 @@ function Awards(props) {
         />
         <Award
           name="Codecademy: Learn React"
-          date="TBD"
+          date="2022"
           image="./images/awards/codecademy.png"
           url=""
         />

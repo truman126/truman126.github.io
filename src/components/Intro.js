@@ -6,7 +6,7 @@ const Image = styled.img`
   height: 300px;
   width: 300px;
   object-fit: cover;
-  border: 5px solid skyblue;
+  border: 5px solid lightgrey;
   float:right;
 `;
 const Header = styled.h3``;
@@ -38,13 +38,12 @@ function Intro(props) {
           </span>
         </Header>
         <p style={{marginTop:'25px'}} >
-          florem ipsum, I am a developer that enjoys web development along with
-          other backend endeavours fill the rest with how awesome i am
+          Hi, my name is Truman. I am a new grad software developer based in London Ontario.
         </p>
       </Leftainer>
 
       <div>
-        <Image src={"./truman.png"} alt="Truman" />
+        <Image src={"./truman_new.jpg"} alt="Truman" />
       </div>
     </Wrapper>
   );

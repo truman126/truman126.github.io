@@ -127,5 +127,3 @@ function Skills(props) {
   );
 }
 export default Skills;
-// {animationDelay: id*100 + 'ms'}
-{/* <SkillItem style={id<MAX_ITEMS ? {animation: 'none'} : {animationDelay: (id-3.5)-0.75 + 's'}} key={id}>{item}{id}</SkillItem> */}
