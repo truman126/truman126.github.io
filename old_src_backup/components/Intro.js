@@ -16,7 +16,6 @@ const Wrapper = styled.div`
     height:92vh;
     display:flex;
     
-    
 `;
 const Leftainer = styled.div`
     width: 70%;

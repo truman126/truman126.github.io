@@ -1,6 +1,5 @@
 import Award from "./Award";
 import styled from "styled-components";
-import Stack from "react-bootstrap/Stack";
 
 
 const Wrapper = styled.div`
@@ -15,20 +14,14 @@ const Header = styled.h3`
   margin-top: 50px;
   margin-bottom: 30px;
 `;
-const Container = styled(Stack)`
-flex-wrap:wrap;
-justify-content:center;
-padding-top:40px;
-flex: 1 0 auto;
-`;
 
 function Awards(props) {
   return (
     <Wrapper className={props.className}>
         <a id="awards" />
 
+      <AwardsContainer>
       <Header>Awards and Certifications</Header>
-      <Container direction="horizontal" gap={3}>
 
         <Award
           className="Award"
@@ -61,7 +54,7 @@ function Awards(props) {
           image="./images/awards/codecademy.png"
           url=""
         />
-      </Container>
+      </AwardsContainer>
     </Wrapper>
   );
 }

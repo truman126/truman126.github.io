@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import SkillCard from "./SkillCard";
 import styled, { keyframes } from 'styled-components';
 import Stack from "react-bootstrap/Stack";
