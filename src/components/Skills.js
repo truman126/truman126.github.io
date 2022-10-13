@@ -71,7 +71,15 @@ function Skills(props) {
     <SkillCard
       name="Excel VBA"
       icon="https://img.icons8.com/color/48/000000/ms-excel.png"
-    />
+    />,
+    <SkillCard
+      name="Adobe Suite"
+      icon="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Creative_Cloud.svg/320px-Creative_Cloud.svg.png"
+    />,
+    <SkillCard
+      name="Microsoft Office"
+      icon="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/240px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
+    />,
   ];
 
   const toggle = () => {
@@ -105,6 +113,7 @@ function Skills(props) {
   `;
   const flipAnimation = keyframes`${flipInX}`;
   const SkillItem = styled.div`
+    
     animation: 1.5s ${flipAnimation};
   
   `;

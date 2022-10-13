@@ -5,7 +5,9 @@ import Card from 'react-bootstrap/Card';
 
 const Icon = styled.img`
   width:40px;
+  height:40px;
   display:inline-block;
+  object-fit: contain;
 
 `;
 const SCard = styled(Card)`
@@ -13,6 +15,8 @@ const SCard = styled(Card)`
   display:inline-block;
   background-color: #d2dae2;
   height:auto;
+  height: 72px;
+
 `;
 
 function SkillCard(props) {
