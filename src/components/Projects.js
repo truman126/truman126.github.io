@@ -24,6 +24,14 @@ function Projects(props) {
       <a id="projects" />
       <Header>Projects</Header>
       <Container direction="horizontal" gap={3}>
+      <ProjectCard
+          title="Truman's Wallpaper Engine"
+          desc="This application uses the MERN stack to create customized wallpapers."
+          img="./images/projects/wallpaperengine.png"
+          github=""
+          demo=""
+          use="https://truman.xyz/wallpaperengine"
+        />
         <ProjectCard
           title="QuizMaker"
           desc="This application can be used by educators to create Quizzes of various types and save them for later use. Students cannot cheat as quiz files can be loaded by the program but the files cannot be view. This application was built in C++ with the Qt framework."
