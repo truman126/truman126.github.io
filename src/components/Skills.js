@@ -78,8 +78,7 @@ function Skills(props) {
     />,
     <SkillCard
       name="Microsoft Office"
-      icon="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/240px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
-    />,
+      icon="https://upload.wikimedia.org/wikipedia/commons/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg" />
   ];
 
   const toggle = () => {

@@ -1,6 +1,12 @@
 import ProjectCard from "./ProjectCard";
 import styled from "styled-components";
 import Stack from "react-bootstrap/Stack";
+import {
+  coviz,
+  quizmaker,
+  wallpaperengine,
+  weatherextension
+} from '../images/projects'
 
 function Projects(props) {
   const Header = styled.h3`
@@ -26,8 +32,8 @@ function Projects(props) {
       <Container direction="horizontal" gap={3}>
       <ProjectCard
           title="Truman's Wallpaper Engine"
-          desc="This application uses the MERN stack to create customized wallpapers."
-          img="./images/projects/wallpaperengine.png"
+          desc="Wallpaper Engine uses the MERN stack and allows users to create fully customized wallpapers. Each wallpaper can have the average colour calculated so the framing for each image matches with the image itself. This application utilizes AWS Lambda, S3, and LightSail."
+          img={wallpaperengine}
           github=""
           demo=""
           use="https://truman.xyz/wallpaperengine"
@@ -35,7 +41,7 @@ function Projects(props) {
         <ProjectCard
           title="QuizMaker"
           desc="This application can be used by educators to create Quizzes of various types and save them for later use. Students cannot cheat as quiz files can be loaded by the program but the files cannot be view. This application was built in C++ with the Qt framework."
-          img="./images/projects/quizmaker.png"
+          img={quizmaker}
           github="https://github.com/truman126/QuizMaker"
           demo=""
           use=""
@@ -43,7 +49,7 @@ function Projects(props) {
         <ProjectCard
           title="Truman's Weather Extension"
           desc="This is a chrome extension I created to learn how browser extensions work. In order to save network usage, I built a caching system to prevent constant refreshing. This was created using HTML, CSS, JavaScript, and JQuery."
-          img="./images/projects/weatherextension.png"
+          img={weatherextension}
           github="https://github.com/truman126/weather-extension"
           demo=""
           use="https://chrome.google.com/webstore/detail/trumans-weather-extension/jlgbkogpcpdgnjlbbokmoaekfknpgnkf/"
@@ -51,7 +57,7 @@ function Projects(props) {
         <ProjectCard
           title="Coviz"
           desc="This is a Covid-19 visualizing tool created in Java."
-          img="./images/projects/coviz.png"
+          img={coviz}
           github="https://github.com/truman126/COVIZ"
           demo=""
           use=""

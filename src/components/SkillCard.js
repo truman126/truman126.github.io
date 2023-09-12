@@ -11,7 +11,7 @@ const Icon = styled.img`
 
 `;
 const SCard = styled(Card)`
-  width: 12rem;
+  width: 13rem;
   display:inline-block;
   background-color: #d2dae2;
   height:auto;

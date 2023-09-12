@@ -1,5 +1,6 @@
 import AnimatedTitle from "./AnimatedTitle";
 import styled from "styled-components";
+import avi from "../images/avatar.jpeg"
 
 const Image = styled.img`
   border-radius: 150px;
@@ -39,12 +40,12 @@ function Intro(props) {
           </span>
         </Header>
         <p style={{marginTop:'25px'}} >
-          Hi, my name is Truman. I am a new grad software developer based in London Ontario.
+          Hi, my name is Truman. I am a new grad software developer based in Halifax.
         </p>
       </Leftainer>
 
       <div>
-        <Image src={"./truman_new.jpg"} alt="Truman" />
+        <Image src={avi} alt="Truman" />
       </div>
     </Wrapper>
   );

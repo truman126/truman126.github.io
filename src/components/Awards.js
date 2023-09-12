@@ -1,7 +1,12 @@
 import Award from "./Award";
 import styled from "styled-components";
 import Stack from "react-bootstrap/Stack";
-
+import {
+  codecademy,
+  ibmzxploreadvanced,
+  ibmzxploreconcepts,
+  uwocrest
+} from '../images/awards'
 
 const Wrapper = styled.div`
   background-color: #f8f9fa;
@@ -34,31 +39,31 @@ function Awards(props) {
           className="Award"
           name="IBM Z Xplore - Advanced"
           date="July 22, 2022"
-          image="./images/awards/ibmzxploreadvanced.png"
+          image={ibmzxploreadvanced}
           url="https://www.credly.com/badges/30beead6-097e-493e-8def-def103484082/public_url"
         />
         <Award
           name="IBM Z Xplore - Concepts"
           date="June 15, 2022"
-          image="./images/awards/ibmzxploreconcepts.png"
+          image={ibmzxploreconcepts}
           url="https://www.credly.com/badges/1337dc39-bca6-4bf2-84cd-3bc47285f0ff/public_url"
         />
         <Award
           name="Dean's Honour List"
           date="Fall/Winter 2022"
-          image="./images/awards/uwocrest.gif"
+          image={uwocrest}
           url=""
         />
         <Award
           name="BSc. Major in Computer Science"
           date="2022"
-          image="./images/awards/uwocrest.gif"
+          image={uwocrest}
           url=""
         />
         <Award
           name="Codecademy: Learn React"
           date="2022"
-          image="./images/awards/codecademy.png"
+          image={codecademy}
           url=""
         />
       </Container>
