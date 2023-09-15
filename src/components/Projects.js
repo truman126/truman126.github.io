@@ -56,7 +56,7 @@ function Projects(props) {
         />
         <ProjectCard
           title="Coviz"
-          desc="This is a Covid-19 visualizing tool created in Java."
+          desc="This is a Covid-19 visualizing tool created in Java. This was created as a school project along with some classmates. The GUI was created in Swing."
           img={coviz}
           github="https://github.com/truman126/COVIZ"
           demo=""
