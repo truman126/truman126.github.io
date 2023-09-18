@@ -16,6 +16,7 @@ const SCard = styled(Card)`
   background-color: #d2dae2;
   height:auto;
   height: 72px;
+  margin: 3px;
 
 `;
 

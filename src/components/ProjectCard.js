@@ -3,10 +3,6 @@ import Card from "react-bootstrap/Card";
 import { CardMeta } from "semantic-ui-react";
 
 function ProjectCard(props) {
-  let githubButton,
-    demoButton,
-    useButton = "";
-
   return (
     <Card
       style={{
@@ -34,7 +30,7 @@ function ProjectCard(props) {
       </Card.Body>
 
       <Card.Body>
-        <a
+        {props.github && (<a
           class="btn btn-primary"
           href={props.github}
           role="button"
@@ -45,8 +41,8 @@ function ProjectCard(props) {
             style={{ width: "20px", fill: "red" }}
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
           />
-        </a>
-        {demoButton && (
+        </a>)}
+        {props.demo && (
           <a
             style={{ marginLeft: "20px" }}
             class="btn btn-primary"
@@ -57,7 +53,7 @@ function ProjectCard(props) {
             See a Demo
           </a>
         )}
-        {useButton && (
+        {props.use && (
           <a
             style={{ marginLeft: "20px" }}
             class="btn btn-primary"
