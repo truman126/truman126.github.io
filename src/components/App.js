@@ -31,7 +31,7 @@ function App() {
         <Projects className="comp" />
       </Fade>
 
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   );
 }
