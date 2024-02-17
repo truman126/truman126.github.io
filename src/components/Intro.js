@@ -1,6 +1,12 @@
 import AnimatedTitle from "./AnimatedTitle";
 import styled from "styled-components";
-import avi from "../images/avatar.jpeg"
+import avi from "../images/avatar.jpeg";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBIcon,
+  MDBBtn
+} from 'mdb-react-ui-kit';
 
 const Image = styled.img`
   border-radius: 150px;
@@ -46,6 +52,16 @@ function Intro(props) {
 
       <div>
         <Image src={avi} alt="Truman" />
+        <div>
+        <a class="btn btn-outline-dark m-1" href="https://github.com/truman126" role="button" target="_blank">
+             GitHub <MDBIcon fab icon='github' />            
+          </a>
+
+          
+            <a class="btn btn-outline-dark m-1" href="https://www.linkedin.com/in/trumanjohnston/" role="button" target="_blank">
+              LinkedIn <MDBIcon fab icon='linkedin' />
+            </a>
+            </div>
       </div>
     </Wrapper>
   );
