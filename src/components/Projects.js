@@ -36,6 +36,7 @@ function Projects(props) {
           desc="Wallpaper Engine uses the MERN stack and allows users to create fully customized wallpapers. Each wallpaper can have the average colour calculated so the framing for each image matches with the image itself. This application utilizes AWS Lambda, S3, and LightSail."
           img={wallpaperengine}
           use="https://truman.xyz/wallpaperengine"
+          github="https://github.com/truman126/WallpaperEngine"
         />
         <ProjectCard
           title="QuizMaker"

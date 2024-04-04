@@ -36,10 +36,7 @@ function Intro(props) {
             <AnimatedTitle />
           </span>
         </Header>
-        <p style={{ marginTop: "25px" }}>
-          Hi, my name is Truman. I am a new grad software developer based in
-          Halifax.
-        </p>
+        
       </Leftainer>
 
       <div>
