@@ -10,6 +10,10 @@ function Skills(props) {
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
     },
     {
+      name: "C#",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    },
+    {
       name: "JavaScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
@@ -81,6 +85,10 @@ function Skills(props) {
     {
       name: "Linux",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    },
+    {
+      name: "Unity",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg",
     },
     {
       name: "Adobe Suite",

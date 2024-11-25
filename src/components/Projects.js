@@ -49,7 +49,6 @@ function Projects(props) {
           desc="This is a chrome extension I created to learn how browser extensions work. In order to save network usage, I built a caching system to prevent constant refreshing. This was created using HTML, CSS, JavaScript, and JQuery."
           img={weatherextension}
           github="https://github.com/truman126/weather-extension"
-          use="https://chrome.google.com/webstore/detail/trumans-weather-extension/jlgbkogpcpdgnjlbbokmoaekfknpgnkf/"
         />
         <ProjectCard
           title="Coviz"
