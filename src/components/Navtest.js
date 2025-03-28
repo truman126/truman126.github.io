@@ -15,11 +15,11 @@ function Navigation() {
             <Navbar.Collapse id="responsive-navbar-nav">
       
               <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="#awards">Awards and Certifications</Nav.Link>
                 <Nav.Link href="#skills">Skills</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="https://truman.xyz/wallpaperengine">Wallpaper Engine <Badge bg="danger">New</Badge></Nav.Link>
+                <Nav.Link href="/wallpaperengine">Wallpaper Engine <Badge bg="danger">New</Badge></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

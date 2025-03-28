@@ -1,13 +1,9 @@
 import React from "react";
-import Intro from "./Intro";
-import Awards from "./Awards";
-import Navigation from "./Navtest";
-import Fade from "react-reveal/Fade";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Footer from "./Footer";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import styled from "styled-components";
-
+import Navigation from "./Navtest";
+import Home from "../pages/Home";
+import WallpaperEngine from "../pages/WallpaperEngine"
 
 function App() {
   const Container = styled.div`
@@ -15,23 +11,23 @@ function App() {
   `;
 
   return (
-    
+
     <Container>
       <a id="home" />
       <Navigation />
-      <Intro className="comp" />
-      <Fade Up>
-        <Awards className="comp" />
-      </Fade>
-      <Fade Up>
-        <Skills className="comp" />
-      </Fade>
+      <BrowserRouter>
 
-      <Fade Up>
-        <Projects className="comp" />
-      </Fade>
+        <div className="pages">
+          <Routes>
+            <Route path="/" element={<Home/>} />
 
-      {/* <Footer /> */}
+
+            <Route path="/wallpaperengine" element={<WallpaperEngine/>} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+
+      
     </Container>
   );
 }
