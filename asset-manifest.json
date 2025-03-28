@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7429f585.css",
+    "main.js": "/static/js/main.c043fd95.js",
+    "static/js/453.3f37c465.chunk.js": "/static/js/453.3f37c465.chunk.js",
+    "static/media/coviz.png": "/static/media/coviz.0e911aa6bf53c2f756aa.png",
+    "static/media/wallpaperengine.png": "/static/media/wallpaperengine.3e8c79837f74dc08e450.png",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/weatherextension.png": "/static/media/weatherextension.bfbf268ecf66c5cf29b8.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/avatar.jpeg": "/static/media/avatar.32040d1bc72bd8694016.jpeg",
+    "static/media/ibmzxploreconcepts.png": "/static/media/ibmzxploreconcepts.f23b7a68f9d84d9c1f03.png",
+    "static/media/ibmzxploreadvanced.png": "/static/media/ibmzxploreadvanced.8b1de229cdbdb5c17b53.png",
+    "static/media/quizmaker.png": "/static/media/quizmaker.ec4adbe64a1663ab1d97.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/uwocrest.gif": "/static/media/uwocrest.183009418c153ecff7ed.gif",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/index.html",
+    "main.7429f585.css.map": "/static/css/main.7429f585.css.map",
+    "main.c043fd95.js.map": "/static/js/main.c043fd95.js.map",
+    "453.3f37c465.chunk.js.map": "/static/js/453.3f37c465.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7429f585.css",
+    "static/js/main.c043fd95.js"
+  ]
+}
