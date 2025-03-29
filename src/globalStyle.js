@@ -30,6 +30,9 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     overflow:hidden;
   }
+  HashLink {
+    color:green;
+  }
 `;
  
 export default GlobalStyle;

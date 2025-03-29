@@ -144,7 +144,7 @@ function Skills(props) {
 
   return (
     <Wrapper className={props.className}>
-      <a id="skills" />
+      <a id="skills"/>
       <Header>Languages and Technologies</Header>
 
       <Category>

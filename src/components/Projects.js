@@ -28,7 +28,7 @@ function Projects(props) {
   return (
     
     <Wrapper className={props.className}>
-      <a id="projects" />
+      <a id="projects"/>
       <Header>Projects</Header>
       <Container direction="horizontal" gap={3}>
       <ProjectCard

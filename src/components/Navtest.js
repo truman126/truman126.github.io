@@ -2,6 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Badge from 'react-bootstrap/Badge';
+import { HashRouter ,Route, Switch , Routes, Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function Navigation() {
   return (
@@ -9,21 +11,30 @@ function Navigation() {
     
     
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="light">
+
           <Container>
-            <Navbar.Brand href="#home">Truman</Navbar.Brand>
+          <HashRouter>
+
+            <Navbar.Brand as={HashLink} to="/#home">Truman</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-      
+            
               <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="#awards">Awards and Certifications</Nav.Link>
-                <Nav.Link href="#skills">Skills</Nav.Link>
-                <Nav.Link href="#projects">Projects</Nav.Link>
-                <Nav.Link href="/wallpaperengine">Wallpaper Engine <Badge bg="danger">New</Badge></Nav.Link>
+
+                <Nav.Link as={HashLink} to="/#home" reloadDocument>Home</Nav.Link>
+                <Nav.Link as={HashLink} smooth to="/#awards" reloadDocument>Awards and Certifications</Nav.Link>
+                <Nav.Link as={HashLink} smooth to="/#skills"reloadDocument>Skills</Nav.Link>
+                <Nav.Link as={HashLink} smooth to="/#projects"reloadDocument>Projects</Nav.Link>
+                <Nav.Link as={HashLink} to="/wallpaperengine" reloadDocument>Wallpaper Engine<Badge bg="danger">New</Badge></Nav.Link>
+                  
               </Nav>
             </Navbar.Collapse>
+            </HashRouter>
+
           </Container>
+         
         </Navbar>
+
   );
 }
 
